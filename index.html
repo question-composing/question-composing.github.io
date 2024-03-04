@@ -136,7 +136,7 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <img src="static/images/performance.png" alt="MY ALT TEXT"/>
+      <img src="static/images/performance.png" alt="MY ALT TEXT" style="max-width: 75%; display: block; margin: auto;"/>
       <h2 class="subtitle has-text-justified">
       </h2>
     </div>
@@ -201,7 +201,11 @@
         <h2 class="title is-3">Iterative Question Composing</h2>
         <div class="content has-text-justified">
           <p>
-            Our method Iterative Question Composing (IQC), deviates from this by iteratively constructing more complex problems. It augments the initial problems, adding additional
+            Traditional data augmentation methods primarily concentrate on modifying either the questions or answers while retaining their original meanings, or generating similar problems. These methods, however, are limited in their diversity as
+            they aim to create nearly identical problems.
+          </p>
+          <p>
+            Our method <b>Iterative Question Composing (IQC)</b>, deviates from this by iteratively constructing more complex problems. It augments the initial problems, adding additional
             reasoning steps without altering their intrinsic logical structure. This ensures that the newly formed problems are
             organically linked to the original problem and elaborately tries to not include extraneous elements induced by a large
             transition of the reasoning process.
@@ -215,7 +219,7 @@
         <section class="hero teaser">
           <div class="container is-max-desktop">
             <div class="hero-body">
-              <img src="static/images/iqc-algorithm.png" alt="MY ALT TEXT" style="max-width: 90%; display: block; margin: auto;"/>
+              <img src="static/images/iqc-algorithm.png" alt="MY ALT TEXT" style="max-width: 95%; display: block; margin: auto;"/>
               <h2 class="subtitle has-text-justified">
               </h2>
             </div>
